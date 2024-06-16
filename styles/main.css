@@ -2,30 +2,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
     text-align: center;
-    padding: 20px;
 }
 
-
-
-.hero-text{
-    max-width: 600px;
-    margin: 0 auto;
-}
-
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-    color: #333;
-    margin: 0;
-    padding: 0;
-}
-
-h1 {
-    color: #005f6b;
-}
 

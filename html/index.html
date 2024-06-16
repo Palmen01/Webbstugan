@@ -11,36 +11,37 @@
 <body>
      <!-- Nav section -->
      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">Image</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Hem <span class="sr-only"></span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Om stugan</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Kontakt</a>
-            </li>
-            
-          </ul>
-        </div>
-      </nav>
+      <div class="container-fluid">
+          <a class="navbar-brand" href="#">Image</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                      <a class="nav-link active" href="#">Hem</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#">Om stugan</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#">Kontakt</a>
+                  </li>
+              </ul>
+          </div>
+      </div>
+  </nav>
 
     <!-- Main content section -->
     <main>
 
         <!-- Hero section -->
-        <div class="hero" style="background-image: url(/images/example.jpg);">
-            <div class="hero-text">
-              <h1>Boka din tid nu för en härlig upplevelse</h1>
+        <div class="hero d-flex align-items-center justify-content-center" style="background-image: url('/images/example.jpg'); height: 100vh;">
+          <div class="text-center text-dark">
+              <h1 class="mb-4">Boka din tid nu för en härlig upplevelse</h1>
               <button type="button" class="btn btn-dark btn-lg">Boka Nu</button>
-            </div>
-        </div>
+          </div>
+      </div>
         
 
         <!-- <section>
@@ -56,13 +57,11 @@
 
     <!-- Footer section -->
 
-    <footer class="navbar navbar-expand-lg navbar-dark bg-dark mt-5">
-      <div class="container">
-          <span class="navbar-text mx-auto">
-              &copy; 2024 Simon Palm Nordholm. All rights reserved.
-          </span>
+    <footer class="bg-dark text-white py-3 mt-5">
+      <div class="container text-center">
+          <span>&copy; 2024 Simon Palm Nordholm. All rights reserved.</span>
       </div>
-  </footer>
+    </footer>
 
     
     <script src="scripts/main.js"></script>
