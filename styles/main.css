@@ -1,4 +1,21 @@
+.hero {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    padding: 20px;
+}
 
+
+
+.hero-text{
+    max-width: 600px;
+    margin: 0 auto;
+}
 
 body {
     font-family: Arial, sans-serif;
@@ -11,3 +28,4 @@ body {
 h1 {
     color: #005f6b;
 }
+
