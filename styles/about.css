@@ -1,0 +1,13 @@
+.row{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(100px,1fr));
+}
+
+.column{
+    grid-column: span 3;
+    width: auto;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
