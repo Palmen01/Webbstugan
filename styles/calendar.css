@@ -1,3 +1,10 @@
 .fontsizeSmall{
     font-size: 60%;
 }
+
+.hero {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+}
